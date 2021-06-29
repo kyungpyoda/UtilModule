@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "UtilModule"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Pio's Awesome UtilModule"
   spec.description  = "Pio's Awesome UtilModule for a better development life."
   spec.homepage     = "https://github.com/kyungpyoda/UtilModule"
