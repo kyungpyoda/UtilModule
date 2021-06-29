@@ -7,12 +7,12 @@
 
 import UIKit
 
-protocol Reusable {
+public protocol Reusable {
     var reuseID: String { get }
 }
 
 extension Reusable {
-    var reuseID: String { String(describing: Self.self) }
+    public var reuseID: String { String(describing: Self.self) }
 }
 
 extension UITableViewCell: Reusable { }

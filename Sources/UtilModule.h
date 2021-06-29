@@ -7,8 +7,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import <UIKit/UIKit.h>
-
 //! Project version number for UtilModule.
 FOUNDATION_EXPORT double UtilModuleVersionNumber;
 

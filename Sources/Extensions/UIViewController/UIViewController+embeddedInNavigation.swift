@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIViewController {
-    func embeddedInNavigation() -> UINavigationController {
+    public func embeddedInNavigation() -> UINavigationController {
         return UINavigationController(rootViewController: self)
     }
 }
